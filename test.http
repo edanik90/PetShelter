@@ -1,0 +1,12 @@
+GET http://localhost:8000/api/pet/5e74d84e8ae1cc2310f6e25e HTTP/1.1
+
+###
+
+POST http://localhost:8000/api/pet/new HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Bethoven",
+    "type": "Dog",
+    "description": "Brownish-yellow senbernar, very friendly"
+}
